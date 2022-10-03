@@ -9,7 +9,7 @@ public class ReferenceTable {
                                         "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "0", "1", "2",
                                         "3", "4", "5", "6", "7", "8", "9", "(", ")", "*", "+", ",", "-", ".", "/"};
 
-    protected int getReferenceIndex(String letter){
+    private int getReferenceIndex(String letter){
         return Arrays.asList(referenceTable).indexOf(letter);
     }
 
